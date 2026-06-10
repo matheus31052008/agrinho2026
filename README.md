@@ -3,7 +3,7 @@
 Agro forte, futuro sustentável: equilíbrio entre produção e
 meio ambiente.
 ## Assunto Escolhido
-[Escreva aqui o assunto específico escolhido pelo aluno.]
+O projeto foi desenvolvido para saber o nivel de risco de um solo sobre erosão
 Exemplos:
 - Uso consciente da água na agricultura.
 - Agricultura de precisão.
@@ -36,9 +36,9 @@ Acesse o projeto publicado no GitHub Pages:
 https://SEU-USUARIO.github.io/agrinho2026/
 
 ## Autor
-Nome do aluno: [coloque aqui o nome do aluno]
-Escola: [coloque aqui o nome da escola]
-Professor orientador: [coloque aqui o nome do professor]
+Nome do aluno: [Matheus Henrique Pereira]
+Escola: [Dom Pedro II]
+Professor orientador: [Luis Alessandro]
 ## Observação
 Este projeto foi desenvolvido com fins educacionais para o
 Concurso Agrinho 2026.
