@@ -8,7 +8,7 @@ Exemplos:
 - Risco de erosão por causa da chuva
 - Dados do terreno 
 ## Sobre o Projeto
-Este projeto foi desenvolvido para o Concurso Agrinho 2026, na
+Este projeto foi desenvolvido para o Concurso Agrinho 2026, nahttps://SEU-USUARIO.github.io/agrinho2026/
 categoria Programação.
 A aplicação web apresenta informações sobre o tema principal do
 concurso e aprofunda o assunto escolhido pelo aluno, mostrando
@@ -30,7 +30,7 @@ contribuir para um futuro mais sustentável.
 - Layout responsivo para celular, tablet e computador.
 ## Como Acessar o Projeto
 Acesse o projeto publicado no GitHub Pages:
-https://SEU-USUARIO.github.io/agrinho2026/
+https://matheus31052008.github.io/agrinho2026/
 
 ## Autor
 Nome do aluno: [Matheus Henrique Pereira]
