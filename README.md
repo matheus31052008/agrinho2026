@@ -5,11 +5,8 @@ meio ambiente.
 ## Assunto Escolhido
 O projeto foi desenvolvido para saber o nivel de risco de um solo sobre erosão
 Exemplos:
-- Uso consciente da água na agricultura.
-- Agricultura de precisão.
-- Compostagem.
-- Rotação de culturas.
-- Proteção de nascentes.
+- Risco de erosão por causa da chuva
+- Dados do terreno 
 ## Sobre o Projeto
 Este projeto foi desenvolvido para o Concurso Agrinho 2026, na
 categoria Programação.
