@@ -1,0 +1,305 @@
+/* ==========================================================================
+   Configurações Globais e Variáveis de Cores (Paleta Verde e Terra)
+   ========================================================================== */
+:root {
+    --primary-green: #2e6f40;
+    --light-green: #eef7f2;
+    --dark-green: #1b4324;
+    --earth-brown: #8c6239;
+    --dark-brown: #593e25;
+    --light-beige: #f9f6f0;
+    --text-color: #333333;
+    --white: #ffffff;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-beige);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 650px;
+}
+
+/* ==========================================================================
+   Header e Navegação
+   ========================================================================== */
+.main-header {
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    color: var(--dark-green);
+}
+
+.logo h1 span {
+    color: var(--earth-brown);
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-left: 20px;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.nav-menu a:hover {
+    color: var(--primary-green);
+}
+
+/* ==========================================================================
+   Seção Hero (Banner Principal)
+   ========================================================================== */
+.hero-section {
+    background: linear-gradient(rgba(27, 67, 36, 0.75), rgba(89, 62, 37, 0.6)), 
+                url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1470&auto=format&fit=crop') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    margin-top: 60px; /* Compensa o header fixo */
+}
+
+.hero-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--primary-green);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: var(--transition);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-green);
+    transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   Seção de Pilares (Cards Informativos)
+   ========================================================================== */
+.features-section {
+    padding: 80px 0;
+    background-color: var(--white);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark-green);
+    margin-bottom: 40px;
+}
+
+.grid-pilares {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: var(--light-green);
+    padding: 30px;
+    border-radius: 8px;
+    border-bottom: 4px solid var(--primary-green);
+    transition: var(--transition);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    color: var(--dark-green);
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+/* ==========================================================================
+   Seção Interativa (Calculadora)
+   ========================================================================== */
+.interactive-section {
+    padding: 80px 0;
+}
+
+.calc-box {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    border: 1px solid rgba(140, 98, 57, 0.2);
+}
+
+.calc-box h3 {
+    color: var(--dark-brown);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.calc-description {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--dark-green);
+}
+
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: var(--white);
+    outline: none;
+    transition: var(--transition);
+}
+
+.form-group select:focus {
+    border-color: var(--primary-green);
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--earth-brown);
+    color: var(--white);
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-submit:hover {
+    background-color: var(--dark-brown);
+}
+
+/* Painel de Resultados */
+.result-box {
+    margin-top: 35px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.result-box.excelente { background-color: #d4edda; color: #155724; }
+.result-box.regular { background-color: #fff3cd; color: #856404; }
+.result-box.critico { background-color: #f8d7da; color: #721c24; }
+
+.hidden {
+    display: none;
+}
+
+.score-display {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.score-status {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   Rodapé
+   ========================================================================== */
+.main-footer {
+    background-color: var(--dark-green);
+    color: var(--white);
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.9rem;
+    border-top: 5px solid var(--earth-brown);
+}
+
+/* ==========================================================================
+   Responsividade (Media Queries)
+   ========================================================================== */
+@media (max-width: 768px) {
+    .header-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-menu a {
+        margin: 0 10px;
+    }
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+    .calc-box {
+        padding: 20px;
+    }
+}
