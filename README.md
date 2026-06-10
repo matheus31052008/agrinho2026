@@ -1,1 +1,44 @@
-# agrinho2026
+# Agrinho 2026
+## Tema
+Agro forte, futuro sustentável: equilíbrio entre produção e
+meio ambiente.
+## Assunto Escolhido
+[Escreva aqui o assunto específico escolhido pelo aluno.]
+Exemplos:
+- Uso consciente da água na agricultura.
+- Agricultura de precisão.
+- Compostagem.
+- Rotação de culturas.
+- Proteção de nascentes.
+## Sobre o Projeto
+Este projeto foi desenvolvido para o Concurso Agrinho 2026, na
+categoria Programação.
+A aplicação web apresenta informações sobre o tema principal do
+concurso e aprofunda o assunto escolhido pelo aluno, mostrando
+a importância do equilíbrio entre a produção agrícola e a
+preservação ambiental.
+## Objetivo
+O objetivo do projeto é demonstrar como a tecnologia, a
+educação ambiental e as boas práticas agrícolas podem
+contribuir para um futuro mais sustentável.
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript
+- Inteligência Artificial como apoio no desenvolvimento
+## Funcionalidades
+- Página informativa sobre sustentabilidade no campo.
+- Conteúdo relacionado ao tema do Agrinho 2026.
+- Recurso interativo desenvolvido com JavaScript.
+- Layout responsivo para celular, tablet e computador.
+## Como Acessar o Projeto
+Acesse o projeto publicado no GitHub Pages:
+https://SEU-USUARIO.github.io/agrinho2026/
+
+## Autor
+Nome do aluno: [coloque aqui o nome do aluno]
+Escola: [coloque aqui o nome da escola]
+Professor orientador: [coloque aqui o nome do professor]
+## Observação
+Este projeto foi desenvolvido com fins educacionais para o
+Concurso Agrinho 2026.
