@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-flex">
+            <div class="logo">
+                <h1>Agrinho <span>2026</span></h1>
+            </div>
+            <nav class="nav-menu">
+                <a href="#inicio">Início</a>
+                <a href="#pilares">Pilares</a>
+                <a href="#calculadora">Calculadora</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero-section">
+        <div class="container hero-content">
+            <h2>Agro forte, futuro sustentável:</h2>
+            <p>O equilíbrio perfeito entre a produtividade no campo e a preservação do meio ambiente.</p>
+            <a href="#calculadora" class="btn-primary">Calcule seu Impacto</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="features-section">
+        <div class="container">
+            <h3 class="section-title">Produção com Consciência Ambiental</h3>
+            <div class="grid-pilares">
+                <div class="card">
+                    <div class="card-icon">🌱</div>
+                    <h4>Práticas Orgânicas</h4>
+                    <p>Uso de adubação verde, rotação de culturas e manejo integrado de pragas para proteger a vida do solo.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💧</div>
+                    <h4>Gestão Hídrica</h4>
+                    <p>Sistemas inteligentes de irrigação por gotejamento que evitam o desperdício de água doce.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h4>Combate à Erosão</h4>
+                    <p>Plantio em curvas de nível e manutenção da cobertura morta para evitar sulcos e degradação da terra.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculadora" class="interactive-section">
+        <div class="container container-small">
+            <div class="calc-box">
+                <h3>Calculadora de Sustentabilidade Agrícola</h3>
+                <p class="calc-description">Selecione o nível de adoção de práticas sustentáveis na sua propriedade para medir o índice de saúde da sua terra.</p>
+                
+                <form id="calc-form">
+                    <div class="form-group">
+                        <label for="cobertura">Cobertura de Solo (Palhada/Verde):</label>
+                        <select id="cobertura" required>
+                            <option value="10">Solo descoberto (Alto risco de erosão)</option>
+                            <option value="50">Cobertura parcial (Risco moderado)</option>
+                            <option value="100">Totalmente coberto (Proteção máxima)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="irrigacao">Método de Irrigação predominante:</label>
+                        <select id="irrigacao" required>
+                            <option value="20">Inundação ou Aspersão convencional (Alto consumo)</option>
+                            <option value="60">Aspersão controlada/Noturna</option>
+                            <option value="100">Gotejamento ou Monitoramento por Sensores</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="defensivos">Manejo de Pragas e Nutrição:</label>
+                        <select id="defensivos" required>
+                            <option value="20">Uso intensivo de defensivos químicos comuns</option>
+                            <option value="60">Uso moderado / Manejo combinado</option>
+                            <option value="100">Defensivos biológicos e Adubação Orgânica</option>
+                        </select>
+                    </div>
+
+                    <button type="button" id="btn-calcular" class="btn-submit">Analisar Propriedade</button>
+                </form>
+
+                <div id="resultado-painel" class="result-box hidden">
+                    <h4>Resultado da Análise</h4>
+                    <div class="score-display">
+                        <span id="score-value">0</span>%
+                    </div>
+                    <p id="score-status" class="score-status"></p>
+                    <p id="score-feedback"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Projeto Agrinho. Desenvolvido com foco no Equilíbrio Sustentável.</p>
+        </div>
+    </footer>
+
+    <script src="qscript.js"></script>
+</body>
+</html>
